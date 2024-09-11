@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+:root {
+    --primary: #fe2c55;
+    --black: #000;
+    --text-color: #495057;
+    --white: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'SUSE';
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+    color: var(--text-color);
+}
+
+button {
+    font-family: inherit;
+    color: #495057;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input {
+    font-family: Inter;
+}
+
+// Fonts emmbeded
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-Thin.ttf');
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-ExtraLight.ttf');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-SemiBold.ttf');
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: SUSE;
+    src: url('/assets/fonts/SUSE-ExtraBold.ttf');
+    font-weight: 800;
+}
